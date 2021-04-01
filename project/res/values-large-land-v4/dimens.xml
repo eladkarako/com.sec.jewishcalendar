@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="day_layout_height">130.0dip</dimen>
+    <dimen name="next_prev_year_monthe_width">60.0dip</dimen>
+    <dimen name="next_prev_year_monthe_height">60.0dip</dimen>
+    <dimen name="next_prev_year_monthe_width_land">65.0dip</dimen>
+    <dimen name="next_prev_year_monthe_height_land">50.0dip</dimen>
+    <dimen name="info_marginRight_land">1.0dip</dimen>
+    <dimen name="month_year_margin_Bottom">6.0dip</dimen>
+    <dimen name="event_from_to_text_size">21.0dip</dimen>
+    <dimen name="event_item_marginTop">10.0dip</dimen>
+    <dimen name="event_item_marginBottom">15.0dip</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/toast_backroung" />
+    <stroke android:width="1.0dip" android:color="@color/primary" border="" set="" />
+    <padding android:left="5.0dip" android:top="5.0dip" android:right="5.0dip" android:bottom="5.0dip" padding="" set="" />
+    <corners android:topLeftRadius="20.0dip" android:topRightRadius="20.0dip" android:bottomLeftRadius="20.0dip" android:bottomRightRadius="20.0dip" radius="" set="" />
+</shape>

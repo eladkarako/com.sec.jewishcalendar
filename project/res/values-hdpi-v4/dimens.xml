@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="day_layout_height">52.0dip</dimen>
+    <dimen name="day_layout_width">1.0dip</dimen>
+    <dimen name="day_layout_height_land">30.0dip</dimen>
+    <dimen name="day_layout_width_land">12.0dip</dimen>
+    <dimen name="weekday_marginTop_land">0.0dip</dimen>
+    <dimen name="next_prev_year_monthe_width">39.0dip</dimen>
+    <dimen name="next_prev_year_monthe_height">47.0dip</dimen>
+    <dimen name="info_marginRight_land">0.0dip</dimen>
+    <dimen name="info_marginLeft_land">0.0dip</dimen>
+    <dimen name="info_marginRight">2.0dip</dimen>
+    <dimen name="info_marginLeft">0.0dip</dimen>
+    <dimen name="week_banner_marginRight">0.0dip</dimen>
+    <dimen name="week_banner_marginLeft">0.0dip</dimen>
+    <dimen name="day_table_marginRight">0.0dip</dimen>
+    <dimen name="day_table_marginLeft">0.0dip</dimen>
+    <dimen name="month_year_margin_Bottom">2.0dip</dimen>
+    <dimen name="marginTop_land">0.0dip</dimen>
+    <dimen name="weekline_layout_marginTop">0.0dip</dimen>
+    <dimen name="action_bar_default_height">30.0dip</dimen>
+    <dimen name="month_day_text_size">12.0sp</dimen>
+</resources>

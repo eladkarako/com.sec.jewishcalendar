@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/FrameLayout" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView1" android:padding="@dimen/lock_screen_image_margin_top_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/screensaver_background" android:scaleType="fitCenter" android:contentDescription="@string/image_ui" />
+    <TextView android:textSize="@dimen/five_min_txt_size" android:textStyle="bold|italic" android:textColor="@color/white" android:gravity="center" android:layout_gravity="top" android:id="@id/txtAlert" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/five_min_margin_top_bottom" android:text="@string/shabbat_mode_is_on" />
+    <Button android:textSize="@dimen/five_min_btn_txt_size" android:textStyle="bold|italic" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/btnOk" android:background="@drawable/tw_sub_header_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/ok" />
+    <com.sec.shabbatmode.preferences.utilities.AlarmSlidingTab android:orientation="horizontal" android:id="@id/tab_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" leftHandleX="88" leftHandleY="1054" rightHandleX="712" rightHandleY="1054" />
+</FrameLayout>

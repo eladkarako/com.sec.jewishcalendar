@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:paddingTop="@dimen/preference_padding_top_bottom" android:paddingBottom="@dimen/preference_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_padding_side" android:paddingEnd="@dimen/preference_padding_side"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:gravity="center" android:id="@id/update_location_button" android:background="?android:selectableItemBackground" android:layout_width="30.0dip" android:layout_height="45.0dip" android:src="@drawable/gps_btn_selector" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_centerVertical="true" android:contentDescription="@string/content_descriptor_image" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/find_location_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/update_location_button">
+        <TextView android:textSize="@dimen/shabbat_times_txt_size" android:textColor="@color/custom_time_text" android:gravity="start" android:id="@id/current_location_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/press_btn_to_locate" android:lineSpacingExtra="2.0dip" style="@style/SummaryPrefTextAppearance" />
+        <TextView android:textSize="@dimen/shabbat_times_txt_size" android:textColor="@color/custom_time_text" android:gravity="start" android:id="@id/shabbat_entrance_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/press_btn_to_locate" android:lineSpacingExtra="2.0dip" style="@style/SummaryPrefTextAppearance" />
+    </LinearLayout>
+</RelativeLayout>

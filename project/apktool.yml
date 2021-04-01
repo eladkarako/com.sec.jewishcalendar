@@ -1,0 +1,24 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.sec.jewishcalendar_v3.0.0.1_repack.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '21'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.5.1-323935-SNAPSHOT
+versionInfo:
+  versionCode: '3001'
+  versionName: 3.0.0.1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="startYear" format="integer" />
+    <attr name="endYear" format="integer" />
+    <attr name="isBriefing_800dp" format="boolean" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="strokeColor" format="reference|color" />
+    <attr name="fillColor" format="reference|color" />
+    <attr name="circleRadius" format="dimension" />
+    <attr name="circleGap" format="dimension" />
+</resources>

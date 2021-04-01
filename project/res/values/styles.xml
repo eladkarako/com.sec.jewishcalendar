@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppThemeCalendar" parent="@style/AppTheme" />
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:alertDialogStyle">@style/AppTheme.AlertDialogTheme</item>
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="android:alertDialogTheme">@style/AppTheme.AlertDialogTheme</item>
+        <item name="android:actionBarWidgetTheme">@style/AppTheme.ActionBarWidget</item>
+    </style>
+    <style name="AppTheme.AlertDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:textAppearance">@style/AlertDialogTextAppearance</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/AlertDialogTitleTextAppearance</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="AppTheme.ActionBarWidget" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:dropDownListViewStyle">@android:style/Widget.DeviceDefault.Light.ListView.DropDown</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.DeviceDefault.Light.PopupMenu</item>
+    </style>
+    <style name="AppTheme.NoActionBar" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar" />
+    <style name="AppTheme.ActionBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar">
+        <item name="android:background">#ff00a5c4</item>
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBarTitleText</item>
+    </style>
+    <style name="AppTheme.ActionBarTitleText" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="AppTheme.NoActionBarDark" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="NotificationText" parent="@android:style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+    <style name="NotificationTitle" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton" />
+    <style name="OverlayDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+    </style>
+    <style name="TitlePrefTextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">@color/custom_medium_text</item>
+    </style>
+    <style name="TitlePrefTextAppearanceWithoutDisable" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">@color/preference_header_color</item>
+    </style>
+    <style name="SummaryPrefTextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/custom_summary_text</item>
+    </style>
+    <style name="SummaryPrefTextAppearanceWithoutDisable" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/preference_summary_color</item>
+    </style>
+    <style name="AlertDialogTextAppearance" parent="@android:style/TextAppearance.Holo.Medium" />
+    <style name="AlertDialogTitleTextAppearance" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+    <style name="CustomButton" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:buttonStyle">@style/Button</item>
+    </style>
+    <style name="NormalButton" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:buttonStyle">@style/Button</item>
+    </style>
+    <style name="DateDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="AppTheme.EventTitleText" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="EditEvent_Label" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textColor">@color/edit_event_title_color</item>
+    </style>
+    <style name="ListsTitle" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/edit_event_title_color</item>
+    </style>
+    <style name="EditEvent_SubLabel" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/edit_event_title_color</item>
+    </style>
+    <style name="EventInfo_Seperator">
+        <item name="android:background">#80a8a8a8</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.6700001dip</item>
+    </style>
+    <style name="EditEvent_Seperator" parent="@style/EventInfo_Seperator">
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+    </style>
+    <style name="EditLinearGuide">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="NextYear">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/next_prev_year_monthe_width</item>
+        <item name="android:layout_height">@dimen/next_prev_year_monthe_height</item>
+        <item name="android:src">@drawable/next_year_selector</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="PreviousYear">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/next_prev_year_monthe_width</item>
+        <item name="android:layout_height">@dimen/next_prev_year_monthe_height</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="NextMonth">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/next_prev_year_monthe_width</item>
+        <item name="android:layout_height">@dimen/next_prev_year_monthe_height</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="PreviousMonth">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/next_prev_year_monthe_width</item>
+        <item name="android:layout_height">@dimen/next_prev_year_monthe_height</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="YearLabel" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">15.0</item>
+    </style>
+    <style name="MonthLabel" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">25.0</item>
+    </style>
+    <style name="WeekDay" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:textColor">@color/month_week_num_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="Day" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/month_day_number</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/day_layout_height</item>
+    </style>
+    <style name="Info" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ff29333c</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="NumberPickerText" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:textSize">30.0sp</item>
+    </style>
+    <style name="CustomToastText" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/edit_event_title_color</item>
+    </style>
+</resources>

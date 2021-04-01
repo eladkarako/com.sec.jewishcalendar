@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout1" android:background="@drawable/switch_view_btn_bg" android:clickable="true" android:layout_width="@dimen/floating_btn_width" android:layout_height="@dimen/floating_btn_height" android:onClick="goToCalendar" style="@style/CustomButton"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/imageView1" android:layout_width="@dimen/floating_btn_icon_size" android:layout_height="@dimen/floating_btn_icon_size" android:layout_marginTop="6.0dip" android:src="@drawable/app_icon" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="fill_horizontal|bottom|center" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_to_calendar" android:layout_below="@id/imageView1" android:layout_centerHorizontal="true" />
+</RelativeLayout>

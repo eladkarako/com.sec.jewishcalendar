@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lock_screen_margin_top_bottom">10.0dip</dimen>
+    <dimen name="lock_screen_image_margin_top_bottom">60.0dip</dimen>
+    <dimen name="action_bar_default_height">40.0dip</dimen>
+    <dimen name="five_min_margin_top_bottom">20.0dip</dimen>
+</resources>

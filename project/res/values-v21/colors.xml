@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ff00838f</color>
+    <color name="primary_dark">#ff006064</color>
+    <color name="preference_summary_color">#ff8d9ca3</color>
+    <color name="preference_header_color">#ff000000</color>
+    <color name="preference_summary_color_disabled">#ffe5e5e5</color>
+    <color name="preference_header_color_disabled">#ffe5e5e5</color>
+    <color name="connectivity_divider_color">#ffa0a0a0</color>
+</resources>

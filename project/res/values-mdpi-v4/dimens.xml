@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="day_layout_height">49.0dip</dimen>
+    <dimen name="day_layout_width">0.0dip</dimen>
+    <dimen name="day_layout_height_land">31.0dip</dimen>
+    <dimen name="day_marginRightLand">0.0dip</dimen>
+    <dimen name="day_marginLeftLand">0.0dip</dimen>
+    <dimen name="info_marginRight_land">4.0dip</dimen>
+    <dimen name="info_marginLeft_land">0.0dip</dimen>
+    <dimen name="info_marginRight">5.0dip</dimen>
+    <dimen name="info_marginLeft">0.0dip</dimen>
+    <dimen name="week_banner_marginRight">0.0dip</dimen>
+    <dimen name="week_banner_marginLeft">0.0dip</dimen>
+    <dimen name="day_table_marginRight">0.0dip</dimen>
+    <dimen name="day_table_marginLeft">0.0dip</dimen>
+    <dimen name="weekline_layout_marginTop">-9.0dip</dimen>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="today">חזור להיום</string>
+    <string name="change_clendar">עברי/לועזי</string>
+    <string name="app_name">לוח שנה עברי</string>
+    <string name="goTo_s">עבור אל</string>
+    <string name="date_time_set">הגדר</string>
+    <string name="cancel">בטל</string>
+    <string name="create_event">צור ארוע</string>
+    <string name="show_day_events">הצג ארועים</string>
+    <string name="low_jewish_boundary">גבול תחתון ללוח הינו תשרי תרס\"א</string>
+    <string name="high_jewish_boundary">גבול עליון ללוח הינו אלול תת\"ס</string>
+    <string name="low_gregorian_boundary">גבול תחתון ללוח הינו ינואר 1900</string>
+    <string name="high_gregorian_boundary">גבול עליון ללוח הינו דצמבר 2100</string>
+    <string name="no_events_on_day">אין ארועים ביום זה</string>
+    <string name="choose_action_from_list">בחר פעולה מהרשימה</string>
+    <string name="ok">אישור</string>
+    <string name="save">שמור</string>
+    <string name="cancellation">ביטול</string>
+    <string name="edit">ערוך</string>
+    <string name="remove">מחק</string>
+    <string name="from_must_be_earlier_than_to">זמן תחילת ארוע חיב להיות מוקדם יותר מזמן סיום</string>
+    <string name="overlapping_events">לידיעתך: הזמנים של ארוע זה חופפים לזמנים של ארוע אחר</string>
+    <string name="save_event_anyway">שמור שנויים בארוע בכל זאת</string>
+    <string name="dont_save_event_changes">אל תשמור שנויים</string>
+    <string name="create_event_anyway">צור ארוע בכל זאת</string>
+    <string name="dont_create_event">אל תיצור ארוע</string>
+    <string name="no_subject">(ללא נושא)</string>
+    <string name="from_date">מתאריך:</string>
+    <string name="to_date">עד תאריך:</string>
+    <string name="sunday">יום ראשון</string>
+    <string name="monday">יום שני</string>
+    <string name="tuesday">יום שלישי</string>
+    <string name="wednesday">יום רביעי</string>
+    <string name="thursday">יום חמישי</string>
+    <string name="friday">יום ששי</string>
+    <string name="saturday">שבת</string>
+    <string name="add_event">צור אירוע נוסף</string>
+    <string name="remove_all_events">מחק הכל</string>
+    <string name="interested_in_removing_all_events">לידיעתך: כל הארועים ביום זה ימחקו</string>
+    <string name="repeat_recurrence_title">חזרה</string>
+    <string name="no_repeat">אירוע חד-פעמי</string>
+    <string name="daily_repeat">יומי</string>
+    <string name="weekly_repeat">שבועי</string>
+    <string name="gregorian_monthly_repeat">מדי חודש לועזי</string>
+    <string name="jewish_monthly_repeat">מדי חודש עברי</string>
+    <string name="gregorian_yearly_repeat">מדי שנה לועזית</string>
+    <string name="jewish_yearly_repeat">מדי שנה עברית</string>
+    <string name="event_reminder">לוח שנה עברי: תזכורת לגבי אירוע</string>
+    <string name="reminder_title">התראה</string>
+    <string name="no_reminder">ללא</string>
+    <string name="reminder_on_time">בזמן</string>
+    <string name="reminder_5_min_before">5 דקות לפני</string>
+    <string name="reminder_15_min_before">15 דקות לפני</string>
+    <string name="reminder_1_hour_before">שעה לפני</string>
+    <string name="reminder_1_day_before">יום לפני</string>
+    <string name="reminder_1_week_before">שבוע לפני</string>
+    <string name="event_reminders_title">תזכורות</string>
+    <string name="zmanim">זמנים</string>
+    <string name="zmanim_progress">"טוען מיקום וזמנים
+
+אנא ודא ש GPS או רשתות אלחוטיות מופעלים"</string>
+    <string name="location_unknown">לא אותרה כתובת</string>
+    <string name="location_coords">רוחב %1$s, אורך %2$s</string>
+    <string name="time_dawn_16deg">עלות השחר</string>
+    <string name="time_dawn_72min">עלות השחר</string>
+    <string name="time_earliest">טלית ותפילין</string>
+    <string name="time_sunrise"><font fgcolor="#FF000000">הנץ החמה</font></string>
+    <string name="time_shema_mga">שמע אחרון</string>
+    <string name="time_shema_gra">שמע אחרון</string>
+    <string name="time_prayers_mga">סוף שחרית</string>
+    <string name="time_prayers_gra">סוף שחרית</string>
+    <string name="time_midday"><font fgcolor="#FF000000">חצות היום</font></string>
+    <string name="time_earliest_mincha">מנחה גדולה</string>
+    <string name="time_mincha">מנחה</string>
+    <string name="time_plug_hamincha">פלג המנחה</string>
+    <string name="time_candles"><font fgcolor="#FF000000">הדלקת נרות</font></string>
+    <string name="time_sunset"><font fgcolor="#FF000000">שקיעה</font></string>
+    <string name="time_nightfall_3stars">צאת הכוכבים</string>
+    <string name="time_nightfall_72min">צאת הכוכבים</string>
+    <string name="time_midnight">חצות</string>
+    <string name="time_desc_dawn_16deg">‏16.1° מתחת לאופק המזרחי</string>
+    <string name="time_desc_dawn_72min">‏72 דקות לפני הנץ החמה בגובה פני הים</string>
+    <string name="time_desc_earliest">השמש 11.5° מתחת לאופק</string>
+    <string name="time_desc_sunrise">זריחה באזור אפקי</string>
+    <string name="time_desc_shema_mga">סוף זמן קריאת שמע לפי מגן אברהם</string>
+    <string name="time_desc_shema_gra">סוף זמן קריאת שמע לפי גר\"א ובעל התניא</string>
+    <string name="time_desc_prayers_mga">סוף זמן תפילות הבוקר לפי מגן אברהם</string>
+    <string name="time_desc_prayers_gra">סוף זמן תפילות הבוקר לפי גר\"א ובעל התניא</string>
+    <string name="time_desc_midday">צהריים</string>
+    <string name="time_desc_earliest_mincha">מנחה גדולה</string>
+    <string name="time_desc_mincha">מנחה קטנה</string>
+    <string name="time_desc_plug_hamincha">פלג המנחה לפי גר\"א ובעל התניא</string>
+    <string name="time_desc_candles">‏18 דקות לפני שקיעה</string>
+    <string name="time_desc_sunset">שקיעת החמה באזור אפקי</string>
+    <string name="time_desc_nightfall_3stars">רדת הלילה (3 כוכבים בינוניים)</string>
+    <string name="time_desc_nightfall_72min">רדת הלילה (72 דקות לפי רבינו תם)</string>
+    <string name="time_desc_midnight">חצות לילה</string>
+    <string name="widget_name">לוח תפילות עברי</string>
+    <string name="nextYear">שנה הבאה</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EventInfo_Seperator">
+        <item name="android:background">#80a8a8a8</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">4.669983dip</item>
+    </style>
+    <style name="EditEvent_Seperator" parent="@style/EventInfo_Seperator">
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+    <style name="EditLinearGuide">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

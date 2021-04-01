@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.EventTitleText" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="EditEvent_Label">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">@color/edit_event_title_color</item>
+    </style>
+    <style name="ListsTitle" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/edit_event_title_color</item>
+    </style>
+    <style name="EditEvent_SubLabel" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/edit_event_title_color</item>
+    </style>
+    <style name="EventInfo_Seperator">
+        <item name="android:background">#80a8a8a8</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">4.669983dip</item>
+    </style>
+    <style name="EditEvent_Seperator" parent="@style/EventInfo_Seperator">
+        <item name="android:layout_marginTop">28.0dip</item>
+        <item name="android:layout_marginBottom">23.0dip</item>
+    </style>
+    <style name="EditLinearGuide">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="NumberPickerText" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:textSize">30.0sp</item>
+    </style>
+    <style name="CustomToastText" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/edit_event_title_color</item>
+    </style>
+</resources>

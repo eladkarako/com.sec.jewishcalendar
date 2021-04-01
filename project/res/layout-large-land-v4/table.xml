@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/next_prev_year_monthe_height_land" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/next_year" android:background="@drawable/oval_ripple" android:layout_width="@dimen/next_prev_year_monthe_height_land" android:layout_height="@dimen/next_prev_year_monthe_height_land" android:layout_marginLeft="50.0dip" android:src="@drawable/next_year" android:scaleType="centerInside" android:layout_alignParentLeft="true" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/next_month" android:background="@drawable/oval_ripple" android:layout_width="@dimen/next_prev_year_monthe_height_land" android:layout_height="@dimen/next_prev_year_monthe_height_land" android:layout_marginLeft="50.0dip" android:src="@drawable/next_month" android:scaleType="centerInside" android:layout_toRightOf="@id/next_year" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/prev_year" android:background="@drawable/oval_ripple" android:layout_width="@dimen/next_prev_year_monthe_height_land" android:layout_height="@dimen/next_prev_year_monthe_height_land" android:layout_marginRight="50.0dip" android:src="@drawable/prev_year" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/prev_month" android:background="@drawable/oval_ripple" android:layout_width="@dimen/next_prev_year_monthe_height_land" android:layout_height="@dimen/next_prev_year_monthe_height_land" android:layout_marginRight="50.0dip" android:src="@drawable/prev_month" android:scaleType="centerInside" android:layout_toLeftOf="@id/prev_year" />
+        <LinearLayout android:id="@id/year_month" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_toLeftOf="@id/prev_month" android:layout_toRightOf="@id/next_month" android:layout_centerHorizontal="true">
+            <Button android:layout_gravity="center_vertical" android:id="@id/year" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="0.0dip" android:layout_height="@dimen/next_prev_year_monthe_height_land" android:layout_marginLeft="30.0dip" android:layout_marginBottom="@dimen/month_year_margin_Bottom" android:layout_weight="0.8" />
+            <Button android:layout_gravity="center_vertical" android:id="@id/month" android:background="?android:selectableItemBackground" android:clickable="false" android:layout_width="0.0dip" android:layout_height="@dimen/next_prev_year_monthe_height_land" android:layout_marginLeft="30.0dip" android:layout_marginBottom="@dimen/month_year_margin_Bottom" android:layout_weight="1.2" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TableLayout android:background="@drawable/days_title_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="0.0dip" android:stretchColumns="0,1,2,3,4,5,6"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow android:gravity="center" android:layout_gravity="center|top" android:fadingEdge="horizontal">
+            <TextView android:gravity="center" android:id="@id/w1" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weekday_marginTop_land" android:width="@dimen/weekday_layout_width" />
+            <TextView android:gravity="center" android:id="@id/w2" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weekday_marginTop_land" android:width="@dimen/weekday_layout_width" />
+            <TextView android:gravity="center" android:id="@id/w3" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weekday_marginTop_land" android:width="@dimen/weekday_layout_width" />
+            <TextView android:gravity="center" android:id="@id/w4" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weekday_marginTop_land" android:width="@dimen/weekday_layout_width" />
+            <TextView android:gravity="center" android:id="@id/w5" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weekday_marginTop_land" android:width="@dimen/weekday_layout_width" />
+            <TextView android:gravity="center" android:id="@id/w6" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weekday_marginTop_land" android:width="@dimen/weekday_layout_width" />
+            <TextView android:gravity="center" android:id="@id/w7" android:layout_height="wrap_content" android:layout_marginTop="@dimen/weekday_marginTop_land" android:width="@dimen/weekday_layout_width" />
+        </TableRow>
+    </TableLayout>
+    <ViewFlipper android:id="@id/details" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="0.0dip" android:stretchColumns="0,1,2,3,4,5,6"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TableRow>
+                <Button android:id="@id/d1" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d2" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d3" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d4" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d5" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d6" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d7" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+            </TableRow>
+            <TableRow>
+                <Button android:id="@id/d8" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d9" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d10" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d11" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d12" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d13" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d14" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+            </TableRow>
+            <TableRow>
+                <Button android:id="@id/d15" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d16" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d17" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d18" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d19" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d20" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d21" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+            </TableRow>
+            <TableRow>
+                <Button android:id="@id/d22" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d23" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d24" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d25" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d26" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d27" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d28" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+            </TableRow>
+            <TableRow>
+                <Button android:id="@id/d29" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d30" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d31" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d32" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d33" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d34" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d35" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+            </TableRow>
+            <TableRow>
+                <Button android:id="@id/d36" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d37" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d38" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d39" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d40" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d41" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+                <Button android:id="@id/d42" android:layout_width="@dimen/day_layout_width_land" android:layout_height="@dimen/day_layout_height_land" />
+            </TableRow>
+        </TableLayout>
+    </ViewFlipper>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/info_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="1.0dip">
+        <Button android:gravity="center" android:id="@id/info" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/info_marginLeft_land" android:layout_marginRight="@dimen/info_marginRight_land" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/repeat_container" android:background="?android:selectableItemBackground" android:padding="@dimen/event_item_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/EditLinearGuide"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:gravity="left" android:id="@id/repeat_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Repeat" style="@style/EditEvent_Label" />
+        <TextView android:textSize="20.0dip" android:gravity="left" android:id="@id/repeat_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.3299866dip" android:text="One time event" style="@style/EditEvent_SubLabel" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/calendar_ic_depth" android:layout_width="@dimen/round_icon_size" android:layout_height="@dimen/round_icon_size" android:src="@drawable/calendar_ic_depth_arrow" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</LinearLayout>

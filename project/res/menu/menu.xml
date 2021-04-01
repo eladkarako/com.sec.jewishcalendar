@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_time_candles_white" android:id="@id/shomer_shabbat" android:title="@string/app_name2" android:showAsAction="collapseActionView" />
+    <item android:icon="@drawable/ic_menu_calendar_type" android:id="@id/type" android:title="@string/change_clendar" android:showAsAction="collapseActionView" />
+    <item android:icon="@drawable/ic_menu_today" android:id="@id/today" android:title="@string/today" android:showAsAction="collapseActionView" />
+    <item android:icon="@drawable/ic_menu_goto" android:id="@id/goTo" android:title="@string/goTo_s" />
+    <item android:icon="@drawable/ic_menu_desk_clock" android:id="@id/zmanim" android:title="@string/zmanim" />
+    <item android:icon="@drawable/ic_menu_add" android:id="@id/create_event" android:title="@string/create_event" />
+    <item android:icon="@drawable/ic_menu_agenda" android:id="@id/show_day_events" android:title="@string/show_day_events" />
+</menu>

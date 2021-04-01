@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_tablet">false</bool>
+    <bool name="is_tablet_599dp">false</bool>
+    <bool name="is_tablet_600dp">false</bool>
+    <bool name="is_tablet_600dp_tvdpi">false</bool>
+    <bool name="is_tablet_800dp">false</bool>
+    <bool name="is_tablet_800dp_mdpi">false</bool>
+    <bool name="is_tablet_800dp_xhdpi">false</bool>
+    <bool name="is_320dp_hdpi">false</bool>
+    <bool name="is_320dp_ldpi">false</bool>
+    <bool name="is_320dp_mdpi">false</bool>
+    <bool name="is_359dp_hdpi">false</bool>
+    <bool name="is_359dp_xhdpi">false</bool>
+    <bool name="is_359dp_xxhdpi">false</bool>
+    <bool name="is_360dp_hdpi">false</bool>
+    <bool name="is_360dp_xhdpi">false</bool>
+    <bool name="is_399dp_xhdpi">false</bool>
+    <bool name="is_479dp_hdpi">false</bool>
+    <bool name="is_black_theme">true</bool>
+    <bool name="is_360dp_xxhdpi">false</bool>
+    <bool name="is_360dp_xxxhdpi">false</bool>
+</resources>

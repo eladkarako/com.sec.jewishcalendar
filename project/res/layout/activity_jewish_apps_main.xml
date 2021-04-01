@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@id/GoToCalendarLayout" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5">
+            <ImageView android:id="@id/imageCalendar" android:background="@drawable/round_transparent_bg" android:layout_width="@dimen/opening_screen_logo_size" android:layout_height="@dimen/opening_screen_logo_size" android:src="@drawable/app_icon" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+            <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/go_to_calendar" android:layout_below="@id/imageCalendar" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/GoToShomerLayout" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5">
+            <ImageView android:id="@id/ImageView01" android:layout_width="@dimen/opening_screen_logo_size" android:layout_height="@dimen/opening_screen_logo_size" android:src="@drawable/shabbat_icon_big" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+            <TextView android:textAppearance="@style/TitlePrefTextAppearance" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/go_to_shomer_shabbat" android:layout_below="@id/ImageView01" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sec.jewishcalendar.widget.NumberPickerButton android:id="@id/increment" android:background="@drawable/oval_ripple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/arrow_up" />
+    <EditText android:gravity="center" android:id="@id/timepicker_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/number_picker_margin" android:layout_marginBottom="@dimen/number_picker_margin" android:singleLine="true" style="@style/NumberPickerText" />
+    <com.sec.jewishcalendar.widget.NumberPickerButton android:id="@id/decrement" android:background="@drawable/oval_ripple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/arrow_down" />
+</merge>

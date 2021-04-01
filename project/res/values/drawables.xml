@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="agenda_item_declined">@color/tw_color001_dim</item>
+</resources>

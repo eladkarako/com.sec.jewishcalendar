@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="month_prevnextday_text_size">25</integer>
+    <integer name="Info_feild_text_size">23</integer>
+    <integer name="month_year_text_size">25</integer>
+    <integer name="month_year_text_size_small">22</integer>
+    <integer name="week_banner_text_size">21</integer>
+    <integer name="week_banner_text_size_small">18</integer>
+    <integer name="month_day_text_size">25</integer>
+</resources>

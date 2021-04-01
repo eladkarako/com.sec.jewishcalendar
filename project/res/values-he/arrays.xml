@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="JC_Week">
+        <item>empty</item>
+        <item>"א'"</item>
+        <item>"ב'"</item>
+        <item>"ג'"</item>
+        <item>"ד'"</item>
+        <item>"ה'"</item>
+        <item>"ו'"</item>
+        <item>"ש'"</item>
+    </string-array>
+    <string-array name="JC_Week_Letter">
+        <item>empty</item>
+        <item>"א'"</item>
+        <item>"ב'"</item>
+        <item>"ג'"</item>
+        <item>"ד'"</item>
+        <item>"ה'"</item>
+        <item>"ו'"</item>
+        <item>"ש'"</item>
+    </string-array>
+    <string-array name="JC_HDAY">
+        <item>empty</item>
+        <item>"א'"</item>
+        <item>"ב'"</item>
+        <item>"ג'"</item>
+        <item>"ד'"</item>
+        <item>"ה'"</item>
+        <item>"ו'"</item>
+        <item>"ז'"</item>
+        <item>"ח'"</item>
+        <item>"ט'"</item>
+        <item>"י'"</item>
+        <item>י\"א</item>
+        <item>י\"ב</item>
+        <item>י\"ג</item>
+        <item>י\"ד</item>
+        <item>ט\"ו</item>
+        <item>ט\"ז</item>
+        <item>י\"ז</item>
+        <item>י\"ח</item>
+        <item>י\"ט</item>
+        <item>"כ'"</item>
+        <item>כ\"א</item>
+        <item>כ\"ב</item>
+        <item>כ\"ג</item>
+        <item>כ\"ד</item>
+        <item>כ\"ה</item>
+        <item>כ\"ו</item>
+        <item>כ\"ז</item>
+        <item>כ\"ח</item>
+        <item>כ\"ט</item>
+        <item>"ל'"</item>
+    </string-array>
+    <string-array name="JC_LETTERS">
+        <item>empty</item>
+        <item>א</item>
+        <item>ב</item>
+        <item>ג</item>
+        <item>ד</item>
+        <item>ה</item>
+        <item>ו</item>
+        <item>ז</item>
+        <item>ח</item>
+        <item>ט</item>
+        <item>י</item>
+        <item>כ</item>
+        <item>ל</item>
+        <item>מ</item>
+        <item>נ</item>
+        <item>ס</item>
+        <item>ע</item>
+        <item>פ</item>
+        <item>צ</item>
+        <item>ק</item>
+        <item>ר</item>
+        <item>ש</item>
+        <item>ת</item>
+        <item>ם</item>
+        <item>ן</item>
+        <item>ך</item>
+        <item>ף</item>
+    </string-array>
+    <string-array name="JC_MONTHS">
+        <item>error</item>
+        <item>תשרי</item>
+        <item>חשון</item>
+        <item>כסלו</item>
+        <item>טבת</item>
+        <item>שבט</item>
+        <item>אדר</item>
+        <item>ניסן</item>
+        <item>אייר</item>
+        <item>סיון</item>
+        <item>תמוז</item>
+        <item>אב</item>
+        <item>אלול</item>
+        <item>"אדר א'"</item>
+        <item>"אדר ב'"</item>
+    </string-array>
+    <string-array name="JC_GMONTHS">
+        <item>ינואר</item>
+        <item>פברואר</item>
+        <item>מרץ</item>
+        <item>אפריל</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>אוגוסט</item>
+        <item>ספטמבר</item>
+        <item>אוקטובר</item>
+        <item>נובמבר</item>
+        <item>דצמבר</item>
+    </string-array>
+    <string-array name="JC_HOLIDAYS">
+        <item>אין פריטים</item>
+        <item>א׳ ראש השנה</item>
+        <item>ב׳ ראש השנה</item>
+        <item>צום גדליה</item>
+        <item>יום כיפור</item>
+        <item>סוכות</item>
+        <item>חול המועד סוכות</item>
+        <item>הושענא רבה</item>
+        <item>שמחת תורה</item>
+        <item>חנוכה</item>
+        <item>"צום י'בטבת"</item>
+        <item>ט\"ו בשבט</item>
+        <item>תענית אסתר</item>
+        <item>פורים</item>
+        <item>שושן פורים</item>
+        <item>פסח</item>
+        <item>חול המועד פסח</item>
+        <item>יום העצמאות</item>
+        <item>ל\"ג בעומר</item>
+        <item>ערב שבועות</item>
+        <item>שבועות</item>
+        <item>צום י\"ז תמוז</item>
+        <item>תשעה באב</item>
+        <item>ט\"ו באב</item>
+        <item>יום השואה</item>
+        <item>יום הזכרון</item>
+        <item>יום ירושלים</item>
+        <item>שמיני עצרת</item>
+        <item>שביעי של פסח</item>
+        <item>שמיני של פסח</item>
+        <item>שני של שבועות</item>
+        <item>שני של סוכות</item>
+        <item>>שני של פסח</item>
+        <item>פורים קטן</item>
+        <item>שושן פורים קטן</item>
+        <item>ראש חודש</item>
+        <item>א ראש חודש</item>
+        <item>ב ראש חודש</item>
+        <item>"ראש חודש ו' חנוכה"</item>
+        <item>"א' ר\"ח, ו' חנוכה"</item>
+        <item>"ב' ר\"ח, ז' חנוכה"</item>
+        <item>ערב חנוכה, נר ראשון</item>
+        <item>ערב ראש השנה</item>
+        <item>ערב יום כיפור</item>
+        <item>ערב סוכות</item>
+        <item>ערב פסח</item>
+        <item>אסרו חג</item>
+        <item>"א' חנוכה"</item>
+        <item>"ב' חנוכה"</item>
+        <item>"ג' חנוכה"</item>
+        <item>"ד' חנוכה"</item>
+        <item>"ה' חנוכה"</item>
+        <item>"ז' חנוכה"</item>
+        <item>"ח' חנוכה"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" android:layout_alignParentLeft="true" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/time_description" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/label" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</LinearLayout>
